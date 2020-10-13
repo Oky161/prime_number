@@ -6,3 +6,4 @@ def checkIfPrimo(num):
 
 numero = int(input("Ingrese su numero para verificar que sea primo:	"))
 print(checkIfPrimo(numero))
+print(checkIfPrimo(8))
