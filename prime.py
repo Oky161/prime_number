@@ -6,3 +6,12 @@ def checkIfPrimo(num):
 
 number = int(input("Ingrese su número para verificar que sea primo:	"))
 print(checkIfPrimo(number))
+
+print("Verificador de numeros primos\n-------------------")
+nombre = input("Ingrese su nombre!! ")
+nombre = nombre[0].upper() + nombre[1:]
+print("Bienvenido" + nombre + "!")
+
+numero = int(input("Ingrese su numero para verificar que sea primo:	"))
+print(checkIfPrimo(numero))
+print(checkIfPrimo(8))
